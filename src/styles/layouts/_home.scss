@@ -1,0 +1,88 @@
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    .text{
+        h1{
+            color: white;
+            font-weight: 700;
+            font-family: "inter", Arial, Helvetica, sans-serif;
+            font-size: 72px;
+            margin: 0px 0px 20px 0px;
+            letter-spacing: 1.4px;
+            line-height: 84px;
+        }h3{
+            color: #484FFF;
+            font-family: "inter", Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            margin: 0px 0px 20px 0px;
+            letter-spacing: 1.4px;
+        }p{
+            color: white;
+            font-family: "inter", Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 15px;
+            letter-spacing: 1.4px;
+            line-height: 30px;
+            margin: 20px 0px 0px 0px;
+        }
+    }
+    img{
+        width: 748px;
+        height: 614px;
+    }
+}
+
+@media screen and (max-width: 1304px){
+    section{
+        flex-direction: column;
+        .text{
+            margin: 115px 0px;
+            text-align: center;
+        }
+    }footer{
+        flex-direction: column;
+        
+    }
+}
+@media screen and (max-width: 1150px){
+    nav{
+        ul{
+            li{
+                padding: 5px;
+            }
+        }
+    }
+    footer{
+    .investors{
+        margin-top: 50px;
+        text-align: center;
+        .logo{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+}
+@media screen and (max-width: 790px){
+    section{
+        .text{
+            margin: 50px 0px;
+        }
+        img{
+            width: 409px;
+            height: 360px;
+        }
+    }
+}
+@media screen and (max-width: 440px){
+    section{
+        img{
+            width: 261px;
+            height: 245px;
+        }
+    }
+}
